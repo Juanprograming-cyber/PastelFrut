@@ -1,0 +1,119 @@
+.navbar {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.container-fluid{
+    background-color: #2a327c;
+}
+.foto{
+    width: 100%;
+    height: 120px;
+}
+li{
+    color: aqua;
+    margin-left: 50px;
+    font-size: 25px;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+    margin-left: 110px;
+}
+.carousel-inner{
+    background-color: rgb(213, 193, 193);
+}
+.d-block_esp{
+    width: 100%;
+    height: 605px;
+}
+.d-block_esp_2{
+    width: 100%;
+    height: 605px;
+}
+.quienes_somos{
+    color: rgb(247, 142, 57);
+}
+.subtitulo{
+    color: rgb(255, 242, 0);
+}
+.container{
+    margin: 50px;
+}
+.industria{
+    text-decoration:none;
+}
+.primero{
+    background-color: rgb(198, 198, 232);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.segundo{
+    background-color: rgb(171, 220, 220);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.tercero{
+    background-color: rgb(238, 214, 182);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.cuarto{
+    background-color: #e6a8a8;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.quinto{
+    background-color: rgb(150, 152, 154);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.foto_1{
+    width: 100%;
+    height: auto;
+}
+.foto_2{
+    width: 100%;
+    height: 350px;
+}
+.foto_3{
+    width: 100%;
+    height: 440px;
+}
+.subtituloss{
+    font-size: 35px;
+    color: #2a327c;
+}
+.container-fluid_4{
+    background-color: #2a327c;
+    color: white;
+    text-align: center;
+}
+.text-white text-center text-lg-start bg-dark{
+    background-color: #2a327c;
+}
+.ms-2{
+    font-size: 20px;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 15px;
+    border-radius: 20%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-instagram {
+    background: #df9e3d;
+    color: white;
+}
+.fa-whatsapp {
+    background: green;
+    color: white;
+}

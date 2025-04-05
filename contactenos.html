@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos_contacto.css">
+    <title>Formulario</title>
+</head>
+<!--Get para ver la informacion digitada en el formulario se pueda ver en la url-->
+<!--Post para que no se vea la informacion-->
+<body>
+    <form method="post" action="url.html"><!--Action es un php-->
+        <label>Nombre:</label><!--Label= campo-->
+        <input type="text" name="Apellido" placeholder="Ingrese su nombre" required="true"><!--type="text" es para ingresar texto --> <!--name="nombre"= para bases de datos-->
+        <br> <!--placeholder= lo deja dentro del campo pero se borra cuando coloca algo-->
+        <label>Apellido:</label>
+        <input type="text" name="Apellido" placeholder="Ingrese su apellido" required="true">
+        <br>
+        <label>Edad:</label>
+        <input type="number" name="edad" min="10" max="100" placeholder="Ingrese su edad" required="true">
+        <br>
+        <p>Tipo de documento:</p>
+        <select name="documento" required="true"> <!--Lista desplegable-->
+            <option value="Seleccione">Seleccione</option>
+            <option value="Cedulaciudadania">Cédula de Ciudadania</option>
+            <option value="Cedulaextrangeria">Cédula de Extrangeria</option>
+            <option value="Tarjeta de identidad">Tarjeta de Identidad</option>
+        </select>
+        <br>
+        <label>Ingrese el número de documento (solo números)</label>
+        <input type="number" placeholder="Ej: 1234567890" required="true">
+        <br>
+        <label>Ingrese el correo electronico personal</label>
+        <input type="email" placeholder="Ej: pepito@prueba.com" required="true">
+        <br>
+        <label>Ingrese el número de teléfono</label>
+        <input type="number" placeholder="Ej: 3123456789" required="true">
+        <br>
+        <p>Género:</p>
+        <select name="documento"> <!--Lista desplegable-->
+            <option value="Cedulaciudadania">Seleccione</option>
+            <option value="Cedulaciudadania">Femenino</option>
+            <option value="Cedulaextrangeria">Masculino</option>
+            <option value="Tarjeta de identidad">Prefiero no decirlo</option>
+        </select>
+        <br>
+        <label>Seleccione la fecha actual que va enviar el formulario:</label>
+        <input type="date" required="true">
+        <br>
+        <label>Ingrese su comentario:</label><!--textarea= para un parrafo para que sea mas grande-->
+        <textarea name="Comentario" placeholder="Ej: Quiero información de los productos pastelfrut" required="true"></textarea>
+        <br>
+        <input class="enviar" type="submit" name="Registrar" value="Enviar"><!--Enviar formulario-->
+    </form>
+</body>
+</html>

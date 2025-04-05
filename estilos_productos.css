@@ -1,0 +1,34 @@
+.navbar {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.container-fluid{
+    background-color: #2a327c;
+}
+.foto{
+    width: 100%;
+    height: 120px;
+}
+li{
+    margin-left: 50px;
+    font-size: 25px;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+    margin-left: 110px;
+}
+.card-img-top{
+    width: 20%;
+    height: 300px;
+}
+.card-img-top_1{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+}
+.card {
+    margin: 15px; /* Ajusta el espacio entre las tarjetas */
+}
+.card-text{
+    text-align: center;
+}
